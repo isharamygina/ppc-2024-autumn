@@ -6,7 +6,7 @@
 #include <random>
 #include <vector>
 
-#include "core/task/include/task.hpp"
+//#include "core/task/include/task.hpp"
 
 namespace sharamygina_i_horizontal_line_filtration_seq {
 class horizontal_line_filtration_seq : public ppc::core::Task {

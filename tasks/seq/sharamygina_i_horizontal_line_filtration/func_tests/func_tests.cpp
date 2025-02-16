@@ -2,7 +2,7 @@
 
 #include <random>
 
-#include "core/task/include/task.hpp"
+//#include "core/task/include/task.hpp"
 #include "seq/sharamygina_i_horizontal_line_filtration/include/ops_seq.h"
 
 namespace sharamygina_i_horizontal_line_filtration_seq {

@@ -40,10 +40,8 @@ bool sharamygina_i_horizontal_line_filtration_seq::horizontal_line_filtration_se
 
 bool sharamygina_i_horizontal_line_filtration_seq::horizontal_line_filtration_seq::post_processing() {
   internal_order_test();
-  if (world.rank() == 0) {
     unsigned int* output_ptr = reinterpret_cast<unsigned int*>(taskData->outputs[0]);
     std::copy(result_data_.begin(), result_data_.end(), output_ptr);
-  }
   return true;
 }
 
