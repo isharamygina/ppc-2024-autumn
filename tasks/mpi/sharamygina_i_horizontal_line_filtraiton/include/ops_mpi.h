@@ -1,7 +1,7 @@
 #pragma once
 #include <gtest\gtest.h>
 
-#include <boost\mpi.hpp>
+#include <boost\libs\mpi.hpp>
 #include <limits>
 #include <memory>
 #include <vector>
